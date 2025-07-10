@@ -4,7 +4,5 @@ This Python code demonstrates how to safely read specific lines from a text file
 
 #Task2
 
-Here’s a clear **description** of your updated code in **one paragraph**:
-
 This Python program demonstrates how to write, append, and read text data from a file named **`output.txt`** using file handling techniques. First, it opens the file in **read and write mode (`r+`)**, takes user input, and writes that input to the file, overwriting any existing content. After closing the file, it reopens the same file in **append mode (`a`)**, takes additional input from the user, and writes it to the file, but this time it prepends a newline character (`\n`) to ensure the new text appears on a new line instead of being merged with the previous text. After appending, it closes the file again. Finally, it opens the file in **read mode (`r+`)** to read all the contents of **`output.txt`** and displays the complete text on the console, allowing the user to verify that both the written and appended data have been stored correctly.
 
